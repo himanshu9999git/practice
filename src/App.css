@@ -36,3 +36,9 @@
     transform: rotate(360deg);
   }
 }
+
+.boom{
+  text-transform: uppercase;
+  text-decoration: underline red dotted 6px;
+  text-align: center;
+}
