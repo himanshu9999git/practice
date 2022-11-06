@@ -9,7 +9,7 @@ const Forms = () => {
   return (
     <>
       <label>
-        FirstName:
+        FirstName :
         <input
           value={form.firstName}
           type="text"
@@ -20,7 +20,7 @@ const Forms = () => {
         />
       </label>
       <label>
-        FirstName:
+        FirstName :
         <input
           value={form.firstName}
           type="text"
