@@ -1,12 +1,5 @@
-import Child from "./Child";
-
-const Time = () => {
-    const date = new Date();
-    return<>
-        <div>
-            <Child message = {date.toLocaleString()}/>
-        </div>
-    </>
-}
-
-export default Time;
+function Time() {
+    const profileImg = "https://picsum.photos/400/265";
+    return <img src={profileImg} alt="Profile image" />
+ }
+ export default Time;

@@ -19,6 +19,28 @@ const Forms = () => {
 
         />
       </label>
+      <label>
+        FirstName:
+        <input
+          value={form.firstName}
+          type="text"
+          onChange={e => {
+            setForm({ ...form, firstName: e.target.value });
+          }}
+
+        />
+      </label>
+      <label>
+        FirstName:
+        <input
+          value={form.firstName}
+          type="text"
+          onChange={e => {
+            setForm({ ...form, firstName: e.target.value });
+          }}
+
+        />
+      </label>
       <div>
         {form.firstName}
       </div>
